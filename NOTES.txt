@@ -1,0 +1,7 @@
+-make and folder called uploads which is where the  images are going to be saved
+- dingus is for outputting the picture and the writing into the file using words from tensorflow
+- text_out is for reading the text file and outputting the contents 
+- this was locally hosted on xampp
+	-download all files to a file called htdocs
+	-and save xampp to c drive
+	-change paths
