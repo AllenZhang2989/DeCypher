@@ -4,12 +4,11 @@
     <title>DeCypher</title>
   </head>
   <body >
+    
     <style> 
     body{
-      background-image: url('bground.jpg');
-      background-repeat: no-repeat;
-      background-attachment: fixed;
-      background-size: 160% 103%;
+      background-image: url('bground2.jpg');
+    
     }
     </style>
     <div>
@@ -17,9 +16,8 @@
     </div>
     
     <form action="upload.php" method="POST" enctype="multipart/form-data">
-      <input type="file" name="file" /> 
-      <button type="submit" name="submit">UPLOAD</button>
-
+      <input type="file" name="file"/> 
+      <button type="submit" name="submit">Upload</button>
     </form>
           <?php
               #activates the python code
