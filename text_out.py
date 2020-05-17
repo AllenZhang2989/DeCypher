@@ -5,7 +5,7 @@ file_object2  = open("output.txt", 'r+')
 #checks if file is in read mode
 if file_object.mode=='r':
     contents=file_object.read()
-    print ("Text Decryption: "+contents)
+    print ("Text DeCryption: "+contents)
     file_object2.truncate(0)
    
 
